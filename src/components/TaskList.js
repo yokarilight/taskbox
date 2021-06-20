@@ -10,6 +10,7 @@ export function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
     onArchiveTask,
   };
 
+  // TODO: modify loading style
   const LoadingRow = (
     <div className="loading-item">
       <span className="glow-checkbox" />
